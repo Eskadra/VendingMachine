@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QApplication
 from typing import List
 from Domain.bottle import Bottle
 from Domain.product import Product
-from Domain.product import HotDrink
+from Domain.HotDrink import HotDrink
 from Services.coin_dispenser import CoinDispenser
 from Services.display import Display
 from Services.holder import Holder
